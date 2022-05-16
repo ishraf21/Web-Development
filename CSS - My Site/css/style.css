@@ -30,7 +30,12 @@ a{
   color: #11999E;
   font-family: Montserrat;
   margin: 10px 20px;
+  text-decoration: none;
 }
+a:hover{
+  color: #EAF6F6;
+}
+
 hr{
   width: 4%;
   border: dotted #EAF6F6 6px;
@@ -56,6 +61,10 @@ hr{
   left: 250px;
   bottom: 300px;
 }
+.intro{
+  width: 30%;
+  margin: auto;
+}
 .rounded-image{
   border-radius: 50%;
 }
@@ -73,11 +82,7 @@ hr{
   margin: 100px 0;
 }
 
-.intro{
-  width: 30%;
-  margin: auto;
 
-}
 .contact-message{
   width: 40%;
   margin: 40px auto 60px;
@@ -111,4 +116,9 @@ hr{
 .bottom-container{
   background-color:#66BFBF;
   padding: 50px 0 40px;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
