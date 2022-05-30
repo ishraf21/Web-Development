@@ -21,15 +21,17 @@ p{
   color: #8f8f8f;
 }
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 #title{
   background-color: #ff4c68;
   color: #FFF;
 }
 .hero-img{
-  width: 60%;
+  width: 20%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 24%;
 }
 /* Navigation Bar */
 .navbar{
@@ -56,6 +58,8 @@ p{
 
 #features{
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 .feature-box{
   text-align: center;
@@ -99,4 +103,14 @@ p{
 }
 .pricing-column{
   padding: 3% 2%;
+}
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .hero-img{
+    position: static;
+    transform: rotate(0);
+  }
 }
